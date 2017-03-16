@@ -18,7 +18,7 @@ for i=1:(n+1)
 end
 Intg_f2=delta_x*(sum(y)-y(1)/2-y(n+1)/2);
 
-%Simpson's Rule
+%Simpson's Rule: n should be even
 for i=1:(n+1)
 	y(i)=x(i)/(1+x(i)^2);
 end
